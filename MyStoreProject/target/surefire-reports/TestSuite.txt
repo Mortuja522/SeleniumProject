@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 8.255 sec <<< FAILURE!
+setup(com.mystore.testcases.LoginPageTest)  Time elapsed: 7.819 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.mystore.base.Baseclass.prop" is null
+	at com.mystore.base.Baseclass.launchApp(Baseclass.java:25)
+	at com.mystore.testcases.LoginPageTest.setup(LoginPageTest.java:23)
+
